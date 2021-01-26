@@ -7,6 +7,11 @@ yarn && cd frontend yarn
 
 yarn dev
 ```
+## Generate APK sign key
+
+```sh
+keytool -genkeypair -v -keystore ~/.android/key-123456.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+```
 
 ## Reference
 
